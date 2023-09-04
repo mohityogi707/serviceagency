@@ -1,0 +1,194 @@
+.service-page-heading {
+    background:linear-gradient(to right,  #00000061,  #00000061), url(../images/service-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* portfolio section css */
+.portfolio .portfolio-item .portfolio-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+    background:#0000005e;
+}
+.portfolio .portfolio-item .portfolio-img:hover:before{
+    width: 50%;
+}
+.portfolio .portfolio-item .portfolio-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+    background:#0000005e;
+    z-index: 0;
+}
+.portfolio .portfolio-item .portfolio-img:hover:after{
+    width: 50%;
+}
+.portfolio .portfolio-item .link-preview,
+.portfolio .portfolio-item .link-details {
+    text-align: center;
+    width: 45px;
+    height: 35px;
+    background: var(--theme1);
+    border: 1px solid #ffffff;
+    transition:all 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 16px;
+    color: #ffffff;
+    z-index: 1;
+}
+.portfolio .portfolio-item .link-preview:hover,
+.portfolio .portfolio-item .link-details:hover {
+    background: #ffffff;
+    border: 1px solid var(--theme1);
+    color:black;
+}
+.portfolio .portfolio-item .link-preview {
+    left: 0;
+    top: 45%;
+}  
+.portfolio .portfolio-item .link-details {
+    right: 0;
+    top: 45%;
+}
+.portfolio .portfolio-item:hover .link-preview {
+    opacity: 1;
+    visibility: visible;
+    left: 36%;
+}
+.portfolio .portfolio-item:hover .link-details {
+    opacity: 1;
+    visibility: visible;
+    right: 36%;
+}
+.portfolio .portfolio-title {
+    font-size: 18px;
+    bottom: -10px;
+    left: 30%;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease-in-out;
+}
+.portfolio .portfolio-item:hover .portfolio-title {
+    opacity: 1;
+    bottom: 15%;
+    visibility: visible;
+}
+
+/* pricing section css */
+.pricing2 .pricing-card .offer-name {
+font-size: 22px;
+color: var(--theme1);
+}
+.pricing2 .pricing-card .price-1 {
+    font-size: 28px;
+    color: var(--theme1);
+}
+.pricing2 .pricing-card .days {
+    font-size: 14px;
+    color: #827d7d;
+}
+.pricing2 .pricing-card hr {
+    width: 80%;
+    background-color: var(--theme1);
+    height: 2px;
+}
+.pricing2 .pricing-card ,.price-detail li {
+font-size: 14px;
+}
+.pricing2 .price-detail li .fa-check {
+    font-size: 12px;
+    color: #000;
+}
+.pricing2 .price-detail li .fa-xmark {
+    font-size: 12px;
+    color: red;
+}
+.pricing2 .pricing-card .popular {
+    background: var(--theme1);
+    color: #fff;
+    transform: rotate(45deg);
+    right: -38px;
+    top:22px;
+    font-size: 14px;
+}
+.pricing2 .gold {
+   transform: scale(1.1);
+   box-shadow: 10px solid black;
+}
+.pricing2 .pricing-card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.pricing2 .pricing-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+}
+
+/* service-testimonal css start */
+.service-testimonal {
+    background-color: #cbcbcb35;
+}
+.service-testimonal .client3-img {
+    max-width: 80px;
+}
+.service-testimonal .client-name {
+    font-size: 16px;
+    color: black;
+}
+.service-testimonal .client-name span {
+    font-size: 14px;
+    color: #827d7d;
+}
+.service-testimonal .nav-pills .nav-link {
+    /* background-color: #6874dc53; */
+    border: 1px solid var(--theme1);
+    background: #6874dc2b;
+}
+.service-testimonal .review-title {
+    font-size: 22px;
+}
+.service-testimonal .review-icon i {
+    font-size: 20px;
+    color: #ffd43b;
+}
+.service-testimonal .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--theme1);
+    border: 1px solid var(--theme1);
+}
+.service-testimonal .nav-pills .nav-link.active .client-name , .nav-pills .show>.nav-link .client-name {
+    color: white;
+}
+.service-testimonal .nav-pills .nav-link.active .client-name span, .nav-pills .show>.nav-link .client-name span{
+    color: black;
+}
+.service-testimonal .para-icon i{
+    font-size: 36px;
+    color: var(--theme1);
+}
+.service-testimonal .tab-pane {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-direction:reverse;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+     }
+    }

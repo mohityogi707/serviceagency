@@ -1,0 +1,26 @@
+.contactuspage {
+    background:linear-gradient(to right,  #00000061,  #00000061), url(../images/contactus-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
+.contactus-page .contact-detail .contactpage-detail i {
+    color: rgb(64, 62, 62);
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.contactus-page .contact-detail a, .contactus-page .contact-detail span  {
+    color: rgb(130, 122, 122);
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.contactus-page .contact-detail a:hover {
+    color: var(--theme1) ;
+    transform: translateX(5px);
+}
+.contactus-page .contact-detail a:hover i {
+    color: var(--theme1);
+}
+.contactus-page .contact-detail .information {
+    font-size: 18px;
+    letter-spacing: 1px;
+}

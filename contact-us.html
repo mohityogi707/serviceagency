@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2Box Agency</title>
+  <script src="asset/libs/slider/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="asset/libs/slider/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="asset/libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="asset/css/index.css">
+  <link rel="stylesheet" href="asset/css/contactus.css">
+  <link rel="stylesheet" href="asset/css/media-query.css">
+  <link rel="shortcut icon" href="asset/images/favicon-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="asset/FontAwesome/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- scroll to top btn -->
+    <a class="top-btn rounded-5 d-flex justify-content-center align-items-center" href="#" id="topbtn">
+      <i class="fa-solid fa-angle-up "></i>
+    </a>
+<!-- scroll to top btn -->  
+    
+  <!--Start Header -->
+  <nav class="navbar navbar-expand-md container-fluid sticky-top " aria-label="Offcanvas navbar large" id="navbar">
+    <div class="container">
+      <a class="nav-logo d-flex position-relative text-decoration-none" href="index.html">
+        <div class="logo1 logo2 position-relative"></div>
+        <div class="logo1 logo3 position-absolute"></div>
+        <div class="title-2 ms-4 fw-bold">2Box <br> Agency</div>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="offcanvas offcanvas-start text-bg-dark nav-offcanvas bg-white border-0" tabindex="-1"
+        id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header justify-content-between shadow-sm">
+          <a class="nav-logo d-flex position-relative text-decoration-none" href="index.html">
+            <div class="logo1 logo2 position-relative"></div>
+            <div class="logo1 logo3 position-absolute"></div>
+            <div class="title-2 ms-4 fw-bold">2Box <br> Agency</div>
+          </a>
+          <button type="button" class="btn-close  border-0 shadow-none nav-closebtn" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav  ms-auto gap-lg-5 gap-md-3  ">
+            <li class="nav-item">
+              <a class="nav-link fw-medium position-relative" href="about-us.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium position-relative" href="service.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium position-relative" href="team.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium position-relative active" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end-header -->
+
+  <!-- Start About-heading section -->
+  <div class="container-fluid contactuspage page-main-heading p-lg-5 p-md-4 ps-md-3 p-2 ">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-auto headingpage mx-auto rounded-1 px-5 ">
+          <div class=" page-heading fw-semibold">Contact Us </div>
+          <nav aria-label="breadcrumb h-0">
+            <ol class="breadcrumb d-flex page-content justify-content-center">
+              <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-white">Home</a></li>
+              <li class="breadcrumb-item active fw-medium page-disable" aria-current="page">Contact-Us</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End about-heading section -->
+
+<!-- contactus-form section start -->
+  <div class="container-fluid py-lg-5 py-md-4 py-4 contactus-page">
+    <div class="container">
+        <div class="row gy-2">
+            <div class="col-12 text-center heading fw-semibold ">
+                Get in Touch</div>
+            <div class="col-12 sub-heading2 fw-semibold text-center mt-0">How Can We Help You.</div>
+            <div class="col-lg-6 contact-form mt-lg-2 mt-md-2 mt-3">
+              <form action="" id="myform" onsubmit="return validate();" class="row gy-lg-4 gy-md-3 gy-2">
+                <div class="col-12">
+                  <div class="inputWithIcon position-relative shadow-sm py-1">
+                    <input type="text" placeholder="Name" id="name" class="form-control shadow-none ps-5 border-0" required>
+                    <label for="name" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center align-items-center"><i class="fa-regular fa-user"></i></label>
+                  </div>
+                </div>            
+                  
+                <div class="col-12">
+                  <div class="inputWithIcon position-relative shadow-sm py-1">
+                    <input type="email" placeholder="Email" id="email" class="form-control shadow-none ps-5 border-0" required>
+                    <label for="email" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-at"></i></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="inputWithIcon position-relative shadow-sm py-1">
+                    <input type="tel" placeholder="Mobile" id="phone" class="form-control shadow-none ps-5 border-0" required>
+                    <label for="phone" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-phone"></i></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="inputWithIcon position-relative shadow-sm py-1">
+                  <textarea name="" id="message" class="form-control ps-5 shadow-none border-0" placeholder="Message" required></textarea>
+                    <label for="message" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center"><i class="fa-regular fa-envelope pt-3"></i></label>
+                  </div>
+                </div>      
+                <div class="col-12 d-flex justify-content-center my-lg-4 my-md-4 my-3 pt-lg-3 pt-2">
+                  <button class="custom-btn btn border-0 rounded-0  fw-semibold px-4 py-2" type="submit" id="btn"><span id="btnText">Submit</span> </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6 contact-detail mt-lg-2 mt-md-2 ">
+                <div class="row gy-3  align-items-center">
+                    <div class="col-12 information fw-semibold mt-lg-3 mt-md-3 mt-1">Information</div>
+                    <div class="col-12 fw-medium title mt-1">Contact us to make an order or get more information about any tour or trip you are interested in. Our operators will provide you with all the information about your future journey.</div>
+                    <div class="col-md-6 contactpage-detail">
+                        <a href="https://goo.gl/maps/D985Uk6qkLixexA76" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-location-dot me-3"></i> B-34, chitrakoot,  Jaipur</a>
+                    </div>
+                    <div class="col-md-6 contactpage-detail">
+                        <a href="tel:+9112345667" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-phone me-3"></i>+91 123456789</a>
+                    </div>
+                    <div class="col-md-6 contactpage-detail">
+                        <a href="tel:+9112345667" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-fax me-3"></i>+91 123456789</a>
+                    </div>
+                    <div class="col-md-6 contactpage-detail">
+                        <a href="mailto:demo@gmail.com" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-envelope me-3"></i>Demo@gmail.com</a>
+                    </div>
+                    <div class="col-md-6 contactpage-detail">
+                        <span class="d-flex align-items-center"><i class="fa-regular fa-clock me-3" ></i>Mon-Friday / 10:00AM-6:00PM</span>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <ul class="d-flex list-unstyled gap-lg-4 gap-md-4 gap-1 social-icon  mb-0">
+                        <li>
+                            <a href="javascript:;" class="text-decoration-none "><i class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-whatsapp d-flex justify-content-center align-items-center text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-twitter d-flex justify-content-center align-items-center text-white"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-instagram d-flex justify-content-center align-items-center text-white"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pt-4 ">
+                <div class="map overflow-hidden">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14232.131732295265!2d75.7487665!3d26.9024499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5b556df683f%3A0x7d6f8475a2cb14a2!2sElements%20Mall!5e0!3m2!1sen!2sin!4v1685355375330!5m2!1sen!2sin" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" height="400" width="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- contactus-form section end -->
+
+<!-- Start Footer -->
+   <div class="container-fluid footer pt-lg-5 pt-md-5 pt-4 pb-lg-3 pb-2 bg-light">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 col-12">
+         <div class="row">
+          <div class="heading-3 fw-medium footer-heading col-12 "><span class="position-relative">Get In Touch</span></div>
+          <hr class="w-100 my-lg-3 my-md-3 my-2">
+
+          <div class="col-12">
+            <div class="row align-items-center">
+              <div class="col-lg-12 col-md-12 col-6 fw-medium"><span class="main-links ">Email</span></div>
+              <div class="col-lg-12 col-md-12 col-6 address-detail">
+              <a href="mailto:someone@example.com" class="text-decoration-none links mainlink">Demo@gmail.com</a>
+              </div>
+            </div>
+            <div class="row mt-lg-3 mt-md-2 align-items-center">
+              <div class="col-lg-12 col-md-12 col-6 fw-medium"><span class="main-links">Mobile No.</span></div>
+              <div class="col-lg-12 col-md-12 col-6 address-detail ">
+              <a href="tel:+91123456789" class="text-decoration-none links number">+91 1234556789</a></div>
+            </div>
+            <div class="row mt-lg-3 mt-md-2 align-items-center">
+              <div class="col-lg-12 col-md-12 col-6 fw-medium "><span class="main-links"> Address</span></div>
+              <div class="col-lg-12 col-md-12 col-6 address-detail"><a href="https://goo.gl/maps/D985Uk6qkLixexA76" class="text-decoration-none links number">B-34, Vaishali Jaipur</a></div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 main-link">
+          <div class="row">
+            <div class="col-12 heading-3 fw-medium footer-heading"><span class="position-relative">Main Links</span></div>
+            <hr class="w-100 my-lg-3 my-md-3 my-2">
+            <ul class="list-unstyled d-flex flex-column gap-lg-2 gap-md-2 gap-sm-1 gap-0">
+              <li><a href="about-us.html" class="text-decoration-none main-links fw-medium">About</a></li>
+              <li><a href="service.html" class="text-decoration-none main-links fw-medium">Service</a></li>
+              <li><a href="team.html" class="text-decoration-none main-links fw-medium">Team</a></li>
+              <li><a href="contact-us.html" class="text-decoration-none main-links fw-medium">Contact-Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-6 main-link">
+          <div class="row">
+            <div class="col-12 heading-3 fw-medium footer-heading"><span class="position-relative">Support</span></div>
+            <hr class="w-100 my-lg-3 my-md-3 my-2">
+            <ul class="list-unstyled d-flex flex-column gap-lg-2 gap-md-2 gap-sm-1 gap-0 ">
+              <li><a href="privacy-policy.html" class="text-decoration-none  main-links fw-medium address">Privacy Policy</a></li>
+              <li><a href="refundpolicy.html" class="text-decoration-none  main-links fw-medium address">Refund Policy</a></li>
+              <li><a href="termscondition.html" class="text-decoration-none  main-links fw-medium address">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 social-media mt-lg-3 mt-md-3 mt-1">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-6 heading-3 fw-medium footer-heading"><span class="position-relative">Follow Us</span></div>
+            <hr class="w-100 my-lg-3 my-md-3 my-2">
+            <div class="col-lg-12 col-md-12 col-6">
+              <ul class="d-flex list-unstyled gap-lg-4 gap-md-4 gap-1 mt-lg-2 mt-md-2 social-icon mb-0">
+                <li>
+                  <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center "></i></a>
+                </li>
+                <li>
+                  <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-whatsapp d-flex justify-content-center align-items-center "></i></a>
+                </li>
+                <li>
+                  <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-twitter d-flex justify-content-center align-items-center "></i></a>
+                </li>
+                <li>
+                  <a href="javascript:;" class="text-decoration-none"><i class="fa-brands fa-instagram d-flex justify-content-center align-items-center "></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 pt-lg-5 pt-4">
+              <div class="position-relative shadow-sm py-1 inputWithIcon px-2">
+                <input type="text" placeholder="Subscribe" id="sub" class="form-control shadow-none border-0 w-100 h-100 bg-transparent pe-5" required>
+                <label for="sub" class="position-absolute end-0 top-0 h-100 d-flex justify-content-center align-items-center subscribe"><i class="fa-regular fa-paper-plane"></i></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Footer -->
+
+<!--Start Copyright Section -->
+  <div class="container-fluid copyright bg-light pt-2 pb-3">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-auto  mx-auto">
+          <div class="copyright-text fw-semibold">Copyright © 2023, All Rights Reserved </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Copyright Section -->
+
+  <script src="asset/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="asset/js/index.js"></script>
+  <script src="asset/libs/slider/js/owl.carousel.min.js"></script>
+</body>
+
+</html

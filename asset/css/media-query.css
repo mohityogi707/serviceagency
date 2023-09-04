@@ -1,0 +1,616 @@
+@media screen and (max-width:991px) {
+  .top-btn {
+    height: 15px;
+    width: 15px;
+    font-size: 8px
+  }
+  .sub-heading {
+    font-size: 38px;
+    line-height: normal;
+    align-items: center;
+  }
+  .title {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .heading {
+    font-size: 15px;
+  }
+  .custom-btn {
+    font-size: 12px;
+  }
+  .hero-section .hero-right .hero-img2 {
+    border: 12px solid white;
+  }
+  .about-us .content .counter1 {
+    font-size: 22px;
+  }
+  .about-us .content .counter-name {
+    font-size: 15px;
+  }
+  .Rating-Customer .title-3 {
+    font-size: 20px;
+  }
+  .Rating-Customer .rating {
+    font-size: 17px;
+  }
+  .content {
+    position: static !important;
+  }
+  .sub-heading2 {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .ourservice .service-card .service-title {
+    font-size: 15px;
+  }
+  .team .client-img {
+    height: auto;
+    max-width: 90px;
+  }
+  .inputWithIcon input, textarea  {
+    font-size: 14px;
+  }
+  .team .name {
+    font-size: 15px;
+  }
+  .social-icon .follow {
+    font-size: 15px;
+  }
+  .team .team-social-icon .follow {
+    font-size: 14px;
+  }
+  .social-icon li i {
+    height: 30px;
+    width: 30px;
+    font-size: 13px;
+  }
+  .page-main-heading .headingpage .page-heading {
+    font-size: 35px;
+  }
+  .page-main-heading .page-content,
+  .page-main-heading.page-content a {
+    font-size: 15px;
+  }
+  /* about us page media query start*/
+  .about-us-main .about-us-image::before {
+    display: none;
+  }
+
+  .client-counter .counter1 {
+    font-size: 23px;
+  }
+
+  .client-counter .counter-name {
+    font-size: 18px;
+  }
+  .counter1 {
+    font-size: 16px;
+  }
+  .counter-name {
+    font-size: 14px;
+  }
+  /* about us page media query end*/
+
+  /* our service  page media query start*/
+  .portfolio .portfolio-title {
+    font-size: 17px;
+  }
+  /*our service page media query end*/
+
+  /* pricing section media query start*/
+  .pricing2 .pricing-card .offer-name {
+    font-size: 20px;
+    }
+    .pricing2 .pricing-card .price-1 {
+      font-size: 26px;
+  }
+  .pricing2 .pricing-card .days {
+    font-size: 13px;
+}
+.pricing2 .pricing-card ,.price-detail li {
+  font-size: 13px;
+  }
+  .pricing2 .gold {
+    transform: scale(1);
+    box-shadow: none !important;
+ }
+ .pricing2 .pricing-card .popular {
+  font-size: 13px;
+ }
+   /* pricing section media query end*/
+
+   /* service testimonal media query start*/
+  .service-testimonal .client-name {
+    font-size: 14px;
+  }
+  .service-testimonal .client-name span {
+    font-size: 13px;
+  }
+  .service-testimonal .review-title {
+    font-size: 20px;
+  }
+  .service-testimonal .review-icon i {
+    font-size: 18px;
+  }
+  .service-testimonal .para-icon i{
+    font-size: 32px;
+  }
+   /* service testimonal media query end*/
+
+   /* team section media query start */
+  .team-detail .team-main .team-bio .leader-name {
+        font-size: 15px;
+  }
+  .team-detail .team-main .team-bio .leader-position {
+        font-size: 13px;
+  }
+   /* team section media query end */
+
+      /* contact page  media query start */
+      .contactus-page .contact-form input, textarea{
+        font-size: 14px !important;
+    }
+    .contactus-page .contact-form i {
+        font-size: 14px !important;
+    }
+    .contactus-page .contact-detail .contactpage-detail i {
+      font-size: 15px;
+    }
+  .contactus-page .contact-detail a, .contactus-page .contact-detail span  {
+    font-size: 15px;
+   }
+   .contactus-page .contact-detail .information {
+    font-size: 17px;
+   }
+     /* contact page  media query end */
+     
+   /* privacy-policy page media query start  */
+    .privacy-content {
+        font-size: 11px;
+        line-height: 18px;
+    }
+   .privacy-heading {
+        font-size: 15px;
+   }
+   .privacy-policy .welcome {
+    font-size: 16px;
+   }
+        /* privacy-policy page media query end */
+}
+
+@media screen and (max-width:767px) {
+  .sub-heading {
+    font-size: 35px;
+    line-height: normal;
+    align-items: center;
+  }
+  .hero-section br {
+    display: none;
+  }
+  .heading {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .custom-btn {
+    font-size: 12px;
+  }
+  .hero-left {
+    margin-top: 45px;
+  }
+  .hero-section::before {
+    display: none;
+  }
+  .navbar .nav-link {
+    font-size: 12px;
+  }
+  .navbar .nav-offcanvas .offcanvas-header .nav-closebtn {
+    font-size: 11px;
+  }
+  nav,
+  .navbar .nav-offcanvas .offcanvas-header {
+    height: 70px;
+  }
+  .navbar .nav-link:before {
+    display: none;
+  }
+  .navbar .nav-link:after {
+    display: none;
+  }
+  .hero-section {
+    height: auto;
+  }
+  .about-us .content .counter1 {
+    font-size: 18px;
+  }
+  .about-us .content .counter-name {
+    font-size: 14px;
+  }
+  .Rating-Customer .title-3 {
+    font-size: 18px;
+  }
+  .Rating-Customer .rating {
+    font-size: 16px;
+  }
+  .sub-heading2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .ourservice .service-card .service-title {
+    font-size: 14px;
+  }
+  .team .client-img {
+    height: auto;
+    max-width: 80px;
+  }
+  .inputWithIcon input, textarea  {
+    font-size: 12px;
+  }
+  .team .name {
+    font-size: 13px;
+  }
+  .social-icon .follow {
+    font-size: 14px;
+  }
+  .team .team-social-icon .follow {
+    font-size: 13px;
+  }
+  .social-icon li i {
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+  }
+  .page-main-heading .headingpage .page-heading {
+    font-size: 30px;
+  }
+  .page-main-heading .page-content,
+  .page-main-heading.page-content a {
+    font-size: 14px;
+  }
+  /* about us page media query */
+  .client-counter .counter1 {
+    font-size: 21px;
+  }
+  .client-counter .counter-name {
+    font-size: 16px;
+  }
+  .footer .social-media hr {
+    display: none;
+  }
+  .footer .footer-heading::before {
+    display: none;
+  }
+  .about-us-main .about-tabs button {
+    font-size: 13px;
+  }
+  .footer .main-links {
+    font-size: 13px;
+  }
+  .counter1 {
+    font-size: 16px;
+  }
+  .counter-name {
+    font-size: 12px;
+  }
+  /* about us page media query end */
+
+  /* portfolio section media query start*/
+  .portfolio .portfolio-item .link-preview,
+.portfolio .portfolio-item .link-details {
+  font-size: 13px;
+  height: 25px;
+  width: 35px;
+}
+  .portfolio .portfolio-title {
+    font-size: 15px;
+  }
+  /* portfolio section media query end*/
+
+    /* pricing section media query start*/
+  .pricing2 .pricing-card .offer-name {
+    font-size: 18px;
+    }
+    .pricing2 .pricing-card .price-1 {
+      font-size: 24px;
+  }
+  .pricing2 .pricing-card .days {
+    font-size: 12px;
+}
+.pricing2 .pricing-card ,.price-detail li {
+  font-size: 12px;
+  }
+  .pricing2 .pricing-card .popular {
+    font-size: 12px;
+  }
+    /* pricing section media query end*/
+
+       /* service testimonal media query start*/
+  .service-testimonal .client-name {
+    font-size: 13px;
+  }
+  .service-testimonal .client-name span {
+    font-size: 12px;
+  }
+  .service-testimonal .review-title {
+    font-size: 18px;
+  }
+  .service-testimonal .review-icon i {
+    font-size: 16px;
+  }
+  .service-testimonal .para-icon i{
+    font-size: 30px;
+  }
+   /* service testimonal media query end*/
+
+   /* team section media query start */
+  .team-detail .team-main .team-bio .leader-name {
+        font-size: 14px;
+  }
+  .team-detail .team-main .team-bio .leader-position {
+        font-size: 12px;
+  }
+   /* team section media query end */
+   
+    /* contact page  media query start */
+        .contactus-page .contact-form input, textarea{
+          font-size: 13px !important;
+      }
+      .contactus-page .contact-form i {
+          font-size: 13px !important;
+      }
+      .contactus-page .contact-detail .contactpage-detail i {
+        font-size: 14px;
+      }
+    .contactus-page .contact-detail a, .contactus-page .contact-detail span  {
+      font-size: 14px;
+     }
+     .contactus-page .contact-detail .information {
+      font-size: 16px;
+     }
+       /* contact page  media query end */
+
+       /* privacy-policy page media query start  */
+       .privacy-content {
+        font-size: 10px;
+        line-height: 18px;
+       }
+       .privacy-policy .welcome {
+        font-size: 15px;
+       }
+        /* privacy-policy page media query end */
+}
+
+@media screen and (max-width:576px) {
+  .top-btn {
+    height: 13px;
+    width: 13px;
+    font-size: 6px
+  }
+  .sub-heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .heading {
+    font-size: 13px;
+  }
+  .footer .footer-heading {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .custom-btn {
+    font-size: 12px;
+  }
+  nav .nav-logo .title-2 {
+    font-size: 11px;
+  }
+  .hero-left {
+    margin-top: 38px;
+  }
+  .hero-section .hero-right .hero-img2 {
+    border: 8px solid white;
+  }
+  nav,
+  .navbar .nav-offcanvas .offcanvas-header {
+    height: 60px;
+  }
+  .navbar .nav-offcanvas .offcanvas-header .nav-closebtn {
+    font-size: 12px;
+  }
+  .counter1 {
+    font-size: 14px;
+  }
+  .counter-name {
+    font-size: 10px;
+  }
+  .Rating-Customer .title-3 {
+    font-size: 14px;
+  }
+  .Rating-Customer .rating {
+    font-size: 10px;
+  }
+  .sub-heading2 {
+    font-size: 22px;
+  }
+  .ourservice .service-card .service-title {
+    font-size: 12px;
+  }
+  .ourservice .service-card .service-icon {
+    height: 60px;
+    width: 60px;
+    font-size: 16px;
+  }
+  .cardimg-main {
+    margin-top: -24px;
+  }
+  .testimonal .card1 .cardd-img {
+    height: auto;
+    max-width: 60px;
+  }
+  .team .team-social-icon .follow {
+    font-size: 12px;
+  }
+  .footer .address-detail,
+  .footer .address-detail a {
+    font-size: 11px !important;
+  }
+  /* .footer .address {
+    font-size: 12px !important;
+  } */
+  .footer .main-links {
+    font-size: 12px;
+  }
+  .contact-us .main-link li .mainlinks {
+    font-size: 12px;
+  }
+  .contact-us .heading-3 {
+    font-size: 14px;
+  }
+  .inputWithIcon input, textarea  {
+    font-size: 11px ;
+  }
+  .team .name {
+    font-size: 11px;
+  }
+  .social-icon .follow {
+    font-size: 12px;
+  }
+  .social-icon li i {
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+  }
+  .faq-section .faq-accordion .accordion-button {
+    font-size: 11px;
+  }
+  .faq-section .faq-accordion .accordion-body {
+    font-size: 10px;
+  }
+  .page-main-heading .headingpage .page-heading {
+    font-size: 25px;
+  }
+  .page-main-heading .page-content,
+  .page-main-heading.page-content a {
+    font-size: 12px;
+  }
+
+  /* about us page media query star*/
+  .about-us-main .about-tabs button {
+    font-size: 11px;
+  }
+  .about-us .content .counter-name {
+    font-size: 12px;
+  }
+  .about-us .content .counter1 {
+    font-size: 16px;
+  }
+  .client-counter .counter1 {
+    font-size: 18px;
+  }
+  .client-counter .counter-name {
+    font-size: 14px;
+  }
+  .about-us-main .nav-pills {
+    box-shadow: none !important;
+  }
+  /* about us page media query end */
+
+  /* our service page media query start*/
+  .portfolio .portfolio-item .link-preview,
+  .portfolio .portfolio-item .link-details {
+    font-size: 12px;
+  }
+  .portfolio .portfolio-title {
+    font-size: 13px;
+  }
+    /* our service page media query end*/
+
+    /* pricing section media query start */
+  .pricing2 .pricing-card .offer-name {
+    font-size: 16px;
+    }
+    .pricing2 .pricing-card .price-1 {
+      font-size: 22px;
+  }
+  .pricing2 .pricing-card .days {
+    font-size: 11px;
+}
+.pricing2 .pricing-card ,.price-detail li {
+  font-size: 11px;
+  }
+  .pricing2 .pricing-card .popular {
+    font-size: 10px;
+  }
+   /* pricing section media query start */
+
+      /* service testimonal media query start*/
+      .service-testimonal .client-name {
+        font-size: 12px;
+      }
+      .service-testimonal .client-name span {
+        font-size: 11px;
+      }
+      .service-testimonal .review-title {
+        font-size: 15px;
+      }
+      .service-testimonal .review-icon i {
+        font-size: 13px;
+      }
+      .service-testimonal .para-icon i{
+        font-size: 26px;
+      }
+      .service-testimonal .client3-img {
+        max-width: 55px;
+      }
+       /* service testimonal media query end*/
+
+       /* team section media query start */
+       .team-detail .team-main .team-bio .leader-name {
+        font-size: 12px;
+       }
+       .team-detail .team-main .team-bio .leader-position {
+        font-size: 11px;
+       }
+       .team-detail .team-main .client-socialicon {
+        top: 15px;
+        visibility: visible;
+        opacity: 1;
+       }
+        /* team section media query end */
+
+        /* contact page  media query start */
+      .contactus-page .contact-form input, textarea{
+          font-size: 12px !important;
+      }
+      .contactus-page .contact-form i {
+          font-size: 12px !important;
+      }
+      .contactus-page .contact-detail .contactpage-detail i {
+        font-size: 12px;
+      }
+    .contactus-page .contact-detail a, .contactus-page .contact-detail span  {
+      font-size: 12px;
+     }
+     .contactus-page .contact-detail .information {
+      font-size: 15px;
+     }
+       /* contact page  media query end */
+
+       /* privacy-policy page media query start  */
+       .privacy-content {
+        font-size: 9px;
+        line-height: 16px;
+       }
+       .privacy-heading {
+        font-size: 14px;
+       }
+       .privacy-policy .welcome {
+        font-size: 13px;
+       }
+        /* privacy-policy page media query end */
+}

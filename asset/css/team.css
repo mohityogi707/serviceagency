@@ -1,0 +1,41 @@
+.team-page-heading{
+    background:linear-gradient(to right,  #00000061,  #00000061), url(../images/team-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team-detail {
+    background: #f2f2f2b8;
+}
+.team-detail .team-main .team-image img {
+    transition: all 0.3s ease-in-out;
+}
+.team-detail .team-main .team-bio {
+    margin-top: -60px;
+    transition: all 0.3s ease-in-out;
+}
+.team-detail .team-main .team-bio .leader-name {
+    font-size: 16px;
+    color: black;
+}
+.team-detail .team-main .team-bio .leader-position {
+    font-size: 14px;
+    color: rgb(168, 163, 163);
+}
+.team-detail .team-main:hover .team-bio {
+    box-shadow: 0 0 5px #ccc;
+}
+.team-detail .team-main:hover img {
+    transform: scale(1.1);
+}
+.team-detail .team-main .client-socialicon {
+    top: -15px;
+    visibility: hidden;
+    opacity: 0;
+    right:3%;
+    transition: all 0.3s ease-in-out;
+}
+.team-detail .team-main:hover .client-socialicon {
+    top: 15px;
+    visibility: visible;
+    opacity: 1;
+}
